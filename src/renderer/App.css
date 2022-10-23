@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+}
+
+.Left {
+  display: flex;
+  flex-direction: column;
+}
+
+.Left .Logo {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.Title {
+  font-size: calc(10px + 3vmin);
+}
+
+.Category {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 300px;
+}
+
+.Category .Link {
+  border: none;
+  padding: 15px 15px;
+  margin: 10px 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  float: left;
+  background-color: transparent;
+  width: 250px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Category .Link:hover {
+  background-color: white;
+}
